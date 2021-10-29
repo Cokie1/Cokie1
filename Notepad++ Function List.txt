@@ -1,0 +1,17 @@
+Download the User Defined Language file online for M680 and Z80 
+
+
+Add To The Bottom FunctionList.xml either in C:\Documents and Settings\####\Application Data\Notepad++ Or C:\Program Files\Notepad++ or both read online the manual
+
+				<parser id="68k_function" displayName="68k" commentExpr="">
+				<function
+				    mainExpr="^[\t]*[\w]+[a-zA-Z.?]*[:]"
+					displayMode="$functionName">
+					<functionName>
+						<nameExpr expr="[^\t]+"/>
+					</functionName>
+				</function>
+			</parser>\
+
+
+
